@@ -610,7 +610,7 @@ function playArabic(text){
 
 // 🔊 Urdu uses pre-recorded files
 function playUrdu(word){
-  const audio = new Audio(`voices/${word.toLowerCase()}.mp3`);
+  const audio = new Audio(`${word.toLowerCase()}.mp3`);
   audio.play();
 }
 
